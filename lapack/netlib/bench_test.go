@@ -7,7 +7,7 @@ package netlib
 import (
 	"testing"
 
-	"gonum.org/v1/gonum/lapack/testlapack"
+	"github.com/coderme/gonum/lapack/testlapack"
 )
 
 func BenchmarkDgeev(b *testing.B) { testlapack.DgeevBenchmark(b, impl) }

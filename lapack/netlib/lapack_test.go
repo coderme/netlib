@@ -7,8 +7,8 @@ package netlib
 import (
 	"testing"
 
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/lapack/testlapack"
+	"github.com/coderme/gonum/blas"
+	"github.com/coderme/gonum/lapack/testlapack"
 )
 
 var impl = Implementation{}

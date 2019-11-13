@@ -7,7 +7,7 @@ package netlib
 import (
 	"testing"
 
-	"gonum.org/v1/gonum/blas/testblas"
+	"github.com/coderme/gonum/blas/testblas"
 )
 
 func BenchmarkDgerSmSmInc1(b *testing.B) {

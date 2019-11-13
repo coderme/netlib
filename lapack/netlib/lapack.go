@@ -8,9 +8,9 @@ package netlib
 import (
 	"math"
 
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/lapack"
-	"gonum.org/v1/netlib/lapack/lapacke"
+	"github.com/coderme/gonum/blas"
+	"github.com/coderme/gonum/lapack"
+	"github.com/coderme/netlib/lapack/lapacke"
 )
 
 // Implementation is the cgo-based C implementation of LAPACK routines.
